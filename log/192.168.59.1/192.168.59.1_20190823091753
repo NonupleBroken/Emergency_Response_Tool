@@ -1,0 +1,67 @@
+1. 获取系统基本信息
+  当前系统IP地址为：192.168.59.1
+  当前系统主机名称为：izwz97720r8yhsdsdjz
+  当前系统内核版本为:3.10.0-957.21.3.el7.x86_64 GNU/Linux
+  当前系统时间为：Fri Aug 23 09:17:53 CST 2019
+
+2. 网络端口检查
+
+3. CPU占有率检查
+  发现可疑进程 pid: 23257，CPU使用率：14.0
+    进程目录: /，可执行文件：/usr/sbin/sshd
+  发现可疑进程 pid: 519，CPU使用率：0.1
+    进程目录: /，可执行文件：/usr/local/cloudmonitor/CmsGoAgent.linux-amd64
+
+4. 系统启动项目检查
+  根据最近修改时间，系统启动项前5名如下：
+    -rw-r--r-- 1 root root 1.2K Jul  3 22:14 README
+    -rwxr-xr-x 1 root root 2.2K May 13 02:03 aegis
+    -r-x--x--x 1 root root 3.2K May 13 02:02 agentwatch
+    -rw-r--r-- 1 root root  18K Aug 24  2018 functions
+    -rwxr-xr-x 1 root root 4.5K Aug 24  2018 netconsole
+
+5. 历史命令检查
+  发现以下可疑命令，需要进行手动确认：
+    ./rpm -Va > rpm.log
+    rpm -Va > rpm.log
+    rpm -Va
+    rm rpm.log 
+    rm t.php
+    rm master.zip
+    unzip master.zip.1 
+    rm master.zip.1 
+    rpm -va
+    rpm -Va
+
+6. 特权用户和当前登录用户检查
+  特权用户有：
+    root
+  当前登录用户（tty本地登陆  pts远程登录）：
+
+7. crontab定时任务检查
+  暂无定时任务
+
+8. 文件修改情况检查
+  最近三天修改文件：
+    ./
+    ./v2ray
+    ./v2ray/nohup.out
+    ./.viminfo
+    ./.bash_history
+
+9. secure日志检查
+  爆破主机的root帐号次数最多前十位的IP：
+    21 222.168.41.171
+    19 62.215.6.11
+    19 218.95.182.148
+    19 157.230.33.207
+    17 206.189.145.251
+    17 139.59.84.55
+    16 115.159.216.187
+    15 68.183.147.15
+    15 37.59.116.10
+    15 182.61.41.153
+  登录成功的IP：
+
+  最后10次登录成功的时间：
+
