@@ -1,0 +1,2 @@
+192.168.59.1 22 root root
+192.168.59.2 522 root rootroot
