@@ -1,1 +1,0 @@
-# Emergency_Response_Tool
